@@ -6,7 +6,6 @@
 
 body {
 	background-image: url(bg.png);
-	font-size: 1em;
 	margin-left: 50px;
 }
 
@@ -14,7 +13,6 @@ a, a:hover, a:focus {
     text-decoration: none;
     outline: none;
 	color: white;
-    font-size: 14px;
 }
 
 ul {
@@ -34,16 +32,21 @@ li {
 	border: 2px solid white;
 	margin-left: 20px;
 }
+
 .name {
 	color: white;
 	display:inline-block;
-	font-size: 18px;
+	font-size: 22px;
 	margin-bottom: 10px;
 	border-bottom: 1px solid white;
 }
  
 .nav {
     color: white;
-    font-size: 14px;
+    font-size: 15px;
+}
+
+.nav > li > a i {
+    margin-right: 10px;
 }
 
